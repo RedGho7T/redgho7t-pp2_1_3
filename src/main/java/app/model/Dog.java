@@ -1,13 +1,9 @@
 package app.model;
 
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
 public class Dog extends Animal {
-
-@Qualifier("dog")
-private Animal animal;
 
 @Override
 public String toString() {
